@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "EscapeGame Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Shipping",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGame IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"IOS",
+				"Test",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Development",
+				"D:\\SourceCode\\UnrealEngine\\EscapeGame\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_4.24"
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"D:/SourceCode/UnrealEngine/EscapeGame/EscapeGame/.git": true,
+		"D:/SourceCode/UnrealEngine/EscapeGame/EscapeGame/.vs": true,
+		"D:/SourceCode/UnrealEngine/EscapeGame/EscapeGame/.vscode": true,
+		"D:/SourceCode/UnrealEngine/EscapeGame/EscapeGame/Content": true,
+		"D:/SourceCode/UnrealEngine/EscapeGame/EscapeGame/Intermediate": true,
+		"D:/SourceCode/UnrealEngine/EscapeGame/EscapeGame/Saved": true
+	}
+}
