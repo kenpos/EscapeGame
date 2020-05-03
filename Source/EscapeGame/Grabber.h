@@ -43,4 +43,10 @@ private:
 
 	// Retuen hit for first physics body in reach
 	const FHitResult GetFirstPhysicsBodyInReach();
+
+	// Returns current start of reach line
+	FVector GetReachLineStart;
+
+	// Returns current end of reach line
+	FVector GetReachLineEnd;
 };
