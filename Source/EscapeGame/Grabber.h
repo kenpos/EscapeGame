@@ -30,6 +30,8 @@ private:
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
 
+	// The owning door
+	AActor* Owner = nullptr;
 
 	//Ray-cast and grab what's in reach
 	void Grab();
